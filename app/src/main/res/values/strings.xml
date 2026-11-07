@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TiendaTecno</string>
+    <string name="slogan">Tecnología a tu alcance</string>
+
+    <!-- Navegación usuario -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_catalog">Catálogo</string>
+    <string name="menu_cart">Carrito</string>
+    <string name="menu_profile">Perfil</string>
+
+    <!-- Navegación vendedor y administrador -->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_users">Usuarios</string>
+    <string name="menu_products">Productos</string>
+    <string name="menu_reports">Reportes</string>
+    <string name="menu_orders">Pedidos</string>
+
+    <!-- Botones generales -->
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+</resources>

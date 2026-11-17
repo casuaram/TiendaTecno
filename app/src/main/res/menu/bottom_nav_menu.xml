@@ -6,8 +6,12 @@
         android:title="@string/menu_home" />
     <item
         android:id="@+id/nav_catalog"
-        android:icon="@drawable/round_shopping_cart_24"
+        android:icon="@drawable/baseline_inventory_24"
         android:title="@string/menu_catalog" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/round_shopping_cart_24"
+        android:title="Carrito" />
     <item
         android:id="@+id/nav_profile"
         android:icon="@drawable/baseline_person_24"

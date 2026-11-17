@@ -22,8 +22,10 @@
         android:hint="Correo electrónico"
         android:layout_marginBottom="16dp">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -35,8 +37,10 @@
         app:passwordToggleEnabled="true"
         android:layout_marginBottom="24dp">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -57,5 +61,13 @@
         app:icon="@drawable/baseline_fingerprint_24"
         app:iconGravity="textStart"
         app:iconTint="@color/primary" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoToRegister"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="¿No tienes cuenta? Regístrate" />
 
 </LinearLayout>

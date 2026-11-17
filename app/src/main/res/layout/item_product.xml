@@ -17,8 +17,8 @@
             android:id="@+id/imgProduct"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@color/background"
-            android:padding="16dp"
+            android:padding="12dp"
+            android:scaleType="centerInside"
             android:src="@drawable/baseline_inventory_24"
             app:tint="@color/primary" />
 
@@ -33,7 +33,7 @@
                 android:id="@+id/tvProductName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombre del producto"
+                android:text="Nombre"
                 android:textColor="@color/text_primary"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -43,8 +43,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-
-
                 android:text="$0 COP"
                 android:textColor="@color/secondary"
                 android:textSize="14sp"
@@ -56,7 +54,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/round_shopping_cart_24"
             app:tint="@color/primary" />
+
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

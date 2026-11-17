@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360741424382",
+    "project_id": "tiendatecno-70e49",
+    "storage_bucket": "tiendatecno-70e49.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360741424382:android:11f3cb90ca26ba82fc29af",
+        "android_client_info": {
+          "package_name": "com.tiendatecno.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLwrxC1ekJhAe_ZACfqNgh5iIR3O-hyRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
